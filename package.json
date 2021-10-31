@@ -1,0 +1,24 @@
+{
+  "name": "practical-1-kyleq",
+  "version": "1.0.0",
+  "description": "practical 1 assessment for DMIT2008",
+  "default": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html",
+    "clean:dev": "rm -rf .parcel-cache dist",
+    "clean:git": "rm -rf .parcel-cache dist node_modules"
+  },
+  "author": "Kyle Quinney",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^13.0.2",
+    "lodash": "^4.17.21",
+    "parcel": "^2.0.0",
+    "sass": "^1.42.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0"
+  }
+}

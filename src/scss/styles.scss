@@ -1,0 +1,131 @@
+@use 'reboot';
+
+.logo {
+    width: 10rem;
+    margin-top: 1.5rem;
+}
+
+.app-heading h1 {
+    font-family: 'black ops one', cursive;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tagline {
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.object-con ul {
+    padding-left: 0;
+}
+
+.child-con-one li {
+    list-style: none;
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.child-con-one li span {
+    font-family: 'black ops one', cursive;
+    padding-right: 5px;
+}
+
+.img-con {
+    display: flex;
+    justify-content: center;
+}
+
+.child-con-two div img {
+    width: 2rem;
+}
+
+.child-con-two div li {
+    font-family: 'black ops one', cursive;
+}
+
+.child-con-two div {
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.child-con-two {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.addtodo-button-con {
+    display: flex;
+    justify-content: center;
+}
+
+.addtodo-button-con button {
+    font-family: 'black ops one', cursive;
+    font-size: 2rem;
+    border: none;
+    background-color: white;
+    padding: 0;
+}
+
+.addtodo-button-con button:hover {
+    border: 2px solid black;
+}
+
+.error-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    padding-left: 5rem;
+}
+
+.error-img img{
+    width: 32rem;
+}
+
+.error-message {
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.return-button {
+    display: flex;
+    justify-content: center;
+}
+
+.return-button button {
+    font-family: 'black ops one', cursive;
+    font-size: 2rem;
+    border: none;
+    background-color: white;
+    padding: 0;
+}
+
+.return-button button:hover {
+    border: 2px solid black;
+}
+
+.home-button {
+    display: flex;
+    justify-content: center;
+}
+
+.home-button button {
+    font-family: 'black ops one', cursive;
+    font-size: 2rem;
+    border: none;
+    background-color: white;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.home-button button:hover {
+    border: 2px solid black;
+}
